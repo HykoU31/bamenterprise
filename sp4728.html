@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>BAM! Enterprises</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="icon"
+    type="Pictures/x-icon"
+    href="Pictures/favicon.ico">
+  <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logowhite.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i> 
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="location.html">LOCATION</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="planes.html">PLANES</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="contactus.html">CONTACTS</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Evolving the world with speed, efficiency and determination.</h1>
+    <p>Throughout the years, the aviation industry has made lots of revolutionary changes and failures.<br>Here in BAM! Enterprises, we renovate and modify late aircrafts to make the most efficient and comfortable ways of travelling around the world
+    </p>
+    <a href=""class="hero-btn">Learn More Here</a>
+</div>
+
+
+</section>
+
+<!----course------>
+
+<section class="vision">
+    <h1>SlowPlane-4728</h1>
+    <p>Our newly developed long-haul aircraft with a cozy interior to make you experience the best flight of your life. A typically heavy aircraft that can harbor 378 passengers inside it. 4 Trent 7000 engines manufactured by rolls-royce mounted below our aircraft's wings. This aircraft will have 2 floors, similar in look with the A380, but much more efficient and cheaper to maintain.</p>
+</section>
+
+<!----- 
+<div class="slider">
+    <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        
+        <div class="slidefirst">
+            <img src="images/red hawk flyin.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="images/redhwk flyinh.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="images/planedesign_sp48.png" alt="">
+        </div>
+        
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+        </div>
+        
+    </div>
+    <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter = 1;
+        }
+    }, 5000);
+</script> --->
+
+<!-----Footer----->
+
+<section class="footer">
+    <h4>Find Us</h4>
+    <p>“You wanna fly, you got to give up the shit that weighs you down.”</p>
+    <div class="icons">
+        <a href="https://web.facebook.com/people/BAM-Enterprises/100087614865538/"><img src="images/pesbuk.png"></a>
+        <a href="#"><img src="images/twiter.png"></a>
+        <a href="https://www.instagram.com/lifeatbamenterprises/?hl=en"><img src="images/ig.png"></a>
+        <a href="#"><img src="images/inlinked.png"></a>
+        <a href="https://www.youtube.com/channel/UCv8eASyOCq8AlHOUhIX-irw"><img src="images/youtub.png"></a>
+    </div>
+    <p>Copyright © 2022. BAM! Enterprise LTD. All rights reserved ®.</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu (doesnt work anyways)------->
+<script>
+
+    var navLinks = document.getElementByID("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

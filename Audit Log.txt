@@ -1,0 +1,16 @@
+Audit Log ICT Project Website
+
+5/11/2022:
+- finished majority of website homepage (no text, few images-still need to make more)
+
+6/11/2022:
+- completed home page
+- completed location page (for each hq)
+- started aboutus page
+
+7/11/2022:
+- finishing about us page
+
+8/11/2022:
+- completing text for about us page
+- putting pictures for the about us page
